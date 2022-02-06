@@ -567,13 +567,11 @@ img {
 .hero {
   position: relative;
   padding: 280px 0 170px;
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(50% + 700px) calc(50%);
   background-color: #F2F2F2;
-}
-
-.hero__img {
-  position: absolute;
-  top: calc(50% - 550px);
-  left: calc(50% - 90px);
 }
 
 .hero-info {
@@ -612,6 +610,36 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: calc(50% + 230px) calc(50% - 260px);
+    z-index: 3;
+    background-color: #F2F2F2;
+  }
+  .hero__img {
+    display: none;
+  }
+  .hero-info {
+    width: 100%;
+    max-width: 370px;
+    text-align: center;
+  }
+  .hero-info__title {
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.714286px;
+  }
+  .hero-info__text {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.234375px;
+  }
+}
+
+@media only screen and (max-width: 341px) {
+  .hero {
+    padding: 322px 0 88px;
+    background-image: url(../../images/hero-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50% + 240px) calc(50% - 340px);
     z-index: 3;
     background-color: #F2F2F2;
   }
