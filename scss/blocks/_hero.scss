@@ -1,9 +1,9 @@
 .hero {
   padding: 280px 0 170px;
-  // background-image: url(../images/hero-bg.png);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: calc(50% + 700px) calc(50%);
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(50% + 700px) calc(50%);
   background-color: #F2F2F2;
 }
 
@@ -12,9 +12,10 @@
 }
 
 .hero__img{
+
   position: absolute;
-  top: calc(50% - 530px);
-  left: calc(50% - 60px);
+  top: calc(50% - 400px);
+  left: calc(50% + 122px);
 }
 
 .hero-info__title {
