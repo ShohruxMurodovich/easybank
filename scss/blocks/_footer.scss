@@ -77,3 +77,41 @@
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+
+
+@media only screen and (max-width:426px){
+  .footer{
+    padding: 40px 0;
+  }
+
+  .footer__inner{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__case{
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .footer__icons{
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+
+  .footer__list{
+    text-align: center;
+  }
+
+  .footer__list + .footer__list{
+    margin-left: 0;
+  }
+
+  .footer__right{
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 0px;
+  }
+
+}

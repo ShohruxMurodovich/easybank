@@ -65,3 +65,34 @@
   margin: 0;
   padding: 0;
 }
+
+
+@media only screen and (max-width:426px){
+
+  .article__title{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;
+  }
+
+  .article__list{
+    flex-direction: column;
+  }
+
+  .article__item{
+    width: 100%;
+    max-width: 327px;
+  }
+
+  .article__item + .article__item{
+    margin-top: 24px;
+  }
+
+  .article__img {
+    width: 100%;
+    max-width: 327px;
+    height: 200px;
+  }
+
+}
